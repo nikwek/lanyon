@@ -1,25 +1,22 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
-
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
 # Setup
-title:            Lanyon
-tagline:          'A Jekyll theme'
-description:      'Just Testing'
-url:              http://lanyon.getpoole.com
-baseurl:          http://nikwek.github.io/lanyon/
+title:               Lanyon
+tagline:             'A Jekyll theme'
+description:         'Just testing'
+url:                 http://nikwek.github.io
+baseurl:             'http://nikwek.github.io/lanyon/'
+paginate:            5
 
+# About/contact
 author:
-  name:           'Nik Wekwerth'
-  url:            https://twitter.com/nwekwerth
-
-paginate:         5
+  name:              Nik Wekwerth
+  url:               https://twitter.com/nwekwerth
+  email:             nik.wekwerth@gmail.com
 
 # Custom vars
-version:          1.0.0
-
-github:
-  repo:           https://github.com/nikwek/lanyon
+version:             1.0.0
