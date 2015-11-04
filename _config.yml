@@ -9,7 +9,7 @@ title:               Lanyon
 tagline:             'A Jekyll theme'
 description:         'Just testing'
 url:                 http://lanyon.getpoole.com
-baseurl:             'http://nikwek.github.io/lanyon/'
+baseurl:             ''
 paginate:            5
 
 # About/contact
@@ -20,3 +20,6 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
