@@ -8,8 +8,13 @@ relative_permalinks: true
 title:               Lanyon
 tagline:             'A Jekyll theme'
 description:         'Just testing'
+<<<<<<< HEAD
 url:                 http://nikwek.github.io
 baseurl:             'http://nikwek.github.io/lanyon/'
+=======
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+>>>>>>> master
 paginate:            5
 
 # About/contact
@@ -20,3 +25,9 @@ author:
 
 # Custom vars
 version:             1.0.0
+<<<<<<< HEAD
+=======
+
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+>>>>>>> master
